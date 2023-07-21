@@ -2,6 +2,7 @@ package erc20
 
 import (
 	"context"
+	"ethereum-utils-go/contract/erc20/info"
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
@@ -48,7 +49,7 @@ func ERC20Balance(addr string) {
 
 func BalanceToken(backend bind.ContractBackend, tokenAddress, address string) (string, error) {
 	tokenAddr := common.HexToAddress(tokenAddress)
-	instance, err := NewContractName(tokenAddr, backend)
+	instance, err := info.NewToken(tokenAddr, backend)
 	if err != nil {
 		return "", err
 	}
