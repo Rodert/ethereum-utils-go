@@ -36,6 +36,7 @@ func TestGetTokenInfo(t *testing.T) {
 	fmt.Printf("decimals: %v\n", decimals)
 }
 
+// erc20 代币余额查询
 func TestGetTokenInfoBalance(t *testing.T) {
 	balanceWei, balanceETH := erc20.GetTokenBalance(USDTToken, Addr3, InfuraNode1)
 	fmt.Printf("balanceWei: %v\n", balanceWei)
