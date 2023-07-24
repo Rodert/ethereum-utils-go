@@ -16,6 +16,9 @@
 
 
 
+# peference
+
+https://github.com/miguelmota/ethereum-development-with-go-book
 
 # Ethereum Development with Go
 
