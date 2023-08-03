@@ -6,6 +6,8 @@ https://goethereumbook.org/
 
 https://geth.ethereum.org/docs/developers/dapp-developer/native-bindings
 
+https://github.com/lmittmann/w3
+
 ## E-book
 
 The e-book is avaiable in different formats.
@@ -13,3 +15,13 @@ The e-book is avaiable in different formats.
 - [PDF](https://goethereumbook.org/ethereum-development-with-go.pdf)
 - [EPUB](https://goethereumbook.org/ethereum-development-with-go.epub)
 - [MOBI](https://goethereumbook.org/ethereum-development-with-go.mobi)
+
+
+
+# Ethereum Development with Go
+
+> A little guide book on [Ethereum](https://www.ethereum.org/) Development with [Go](https://golang.org/) (golang)
+
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/merkletreejs/master/LICENSE)
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)

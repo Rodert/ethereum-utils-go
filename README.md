@@ -1,29 +1,14 @@
-> 中文作者
+> 中文作者 王邦德
+
+实现了一个极快且模块化的以太坊 JSON RPC 客户端，支持一流的 ABI 。
 
 # ethereum-utils-go
 
 存放 GoLang Ethereum 常用工具。
 
-例如：ERC20、ETH、swap 等常见案例。
+一般通过 GoLang 调用智能合约，我们会使用 `abigen` ABI 实现，我们致力于使用原生语法调用。和 [go-ethereum](https://github.com/ethereum/go-ethereum) 紧密相连。
 
-## Contents
-
-
-
-## TODO
-
-1. 代币转账
+致力于模块化实现。
 
 
 
-# peference
-
-https://github.com/miguelmota/ethereum-development-with-go-book
-
-# Ethereum Development with Go
-
-> A little guide book on [Ethereum](https://www.ethereum.org/) Development with [Go](https://golang.org/) (golang)
-
-[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/merkletreejs/master/LICENSE)
-[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
